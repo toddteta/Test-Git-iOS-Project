@@ -21,6 +21,7 @@
 		A2A50E8E18F7C34900A8F0F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A50E7018F7C34900A8F0F5 /* UIKit.framework */; };
 		A2A50E9618F7C34900A8F0F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2A50E9418F7C34900A8F0F5 /* InfoPlist.strings */; };
 		A2A50E9818F7C34900A8F0F5 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A50E9718F7C34900A8F0F5 /* Git_TestTests.m */; };
+		A2A50EA318F7C59D00A8F0F5 /* DITest.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A50EA218F7C59D00A8F0F5 /* DITest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		A2A50E9318F7C34900A8F0F5 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		A2A50E9518F7C34900A8F0F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A2A50E9718F7C34900A8F0F5 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		A2A50EA118F7C59D00A8F0F5 /* DITest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DITest.h; sourceTree = "<group>"; };
+		A2A50EA218F7C59D00A8F0F5 /* DITest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DITest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 			children = (
 				A2A50E7B18F7C34900A8F0F5 /* DIAppDelegate.h */,
 				A2A50E7C18F7C34900A8F0F5 /* DIAppDelegate.m */,
+				A2A50EA118F7C59D00A8F0F5 /* DITest.h */,
+				A2A50EA218F7C59D00A8F0F5 /* DITest.m */,
 				A2A50E7E18F7C34900A8F0F5 /* Main.storyboard */,
 				A2A50E8118F7C34900A8F0F5 /* DIViewController.h */,
 				A2A50E8218F7C34900A8F0F5 /* DIViewController.m */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2A50EA318F7C59D00A8F0F5 /* DITest.m in Sources */,
 				A2A50E7918F7C34900A8F0F5 /* main.m in Sources */,
 				A2A50E8318F7C34900A8F0F5 /* DIViewController.m in Sources */,
 				A2A50E7D18F7C34900A8F0F5 /* DIAppDelegate.m in Sources */,
